@@ -1,0 +1,696 @@
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll.config
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\PropertyManagement.pdb
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe.config
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\csc.rsp
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe.config
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\csi.rsp
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.AppContext.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Console.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe.config
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\vbc.rsp
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\EntityFramework.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Owin.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Http.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Razor.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\WebGrease.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Razor.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.pdb
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Http.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\EntityFramework.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csprojAssemblyReference.cache
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CoreCompileInputs.cache
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.dll
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.pdb
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.HousesAndUserTypes.resources
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.GenerateResource.cache
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.SeedMigration.resources
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.AddFieldToMemebrshipTable.resources
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.house1.resources
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\PropertyManagement.dll.config
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\PropertyManagement.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\PropertyManagement.pdb
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\csc.exe
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\csc.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\csc.rsp
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\csi.exe
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\csi.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\csi.rsp
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.AppContext.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Console.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\vbc.exe
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\vbc.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\vbc.rsp
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Antlr3.Runtime.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\EntityFramework.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Newtonsoft.Json.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Owin.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Net.Http.Formatting.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Helpers.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Http.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Http.WebHost.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Mvc.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Optimization.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Razor.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.WebPages.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\WebGrease.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\EntityFramework.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Helpers.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Mvc.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Optimization.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Razor.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.WebPages.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Newtonsoft.Json.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Antlr3.Runtime.pdb
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Net.Http.Formatting.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Http.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\System.Web.Http.WebHost.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.csprojAssemblyReference.cache
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.Migrations.HousesAndUserTypes.resources
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.Migrations.SeedMigration.resources
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.Migrations.AddFieldToMemebrshipTable.resources
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.Migrations.house1.resources
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.csproj.GenerateResource.cache
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.csproj.CoreCompileInputs.cache
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.dll
+C:\Users\ani33\Desktop\PropertyManagment-master\PropertyManagement\obj\Debug\PropertyManagement.pdb
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\PropertyManagement.dll.config
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\PropertyManagement.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\PropertyManagement.pdb
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\csc.exe
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\csc.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\csc.rsp
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\csi.exe
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\csi.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\csi.rsp
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.AppContext.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Console.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\vbc.exe
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\vbc.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\vbc.rsp
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Antlr3.Runtime.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\EntityFramework.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Newtonsoft.Json.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Owin.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Net.Http.Formatting.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Helpers.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Http.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Http.WebHost.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Mvc.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Optimization.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Razor.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.WebPages.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\WebGrease.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\EntityFramework.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Helpers.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Mvc.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Optimization.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Razor.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.WebPages.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Newtonsoft.Json.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Antlr3.Runtime.pdb
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Net.Http.Formatting.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Http.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\System.Web.Http.WebHost.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.csprojAssemblyReference.cache
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.Migrations.HousesAndUserTypes.resources
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.Migrations.SeedMigration.resources
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.Migrations.AddFieldToMemebrshipTable.resources
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.Migrations.house1.resources
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.csproj.GenerateResource.cache
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.csproj.CoreCompileInputs.cache
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.dll
+C:\Users\ani33\Desktop\PropertyManagment-master - Copy\PropertyManagement\obj\Debug\PropertyManagement.pdb
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll.config
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.pdb
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe.config
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.rsp
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe.config
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.rsp
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.AppContext.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Console.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe.config
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.rsp
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Owin.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Razor.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\WebGrease.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Razor.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.pdb
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csprojAssemblyReference.cache
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.HousesAndUserTypes.resources
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.SeedMigration.resources
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.AddFieldToMemebrshipTable.resources
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.house1.resources
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.GenerateResource.cache
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CoreCompileInputs.cache
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.dll
+C:\Users\ani33\Desktop\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.pdb
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll.config
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.pdb
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe.config
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.rsp
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe.config
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.rsp
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.AppContext.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Console.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Compression.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.AccessControl.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Claims.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.ValueTuple.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe.config
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.rsp
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Owin.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Razor.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\WebGrease.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Razor.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.pdb
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csprojAssemblyReference.cache
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.HousesAndUserTypes.resources
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.SeedMigration.resources
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.AddFieldToMemebrshipTable.resources
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.house1.resources
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.GenerateResource.cache
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.dll
+D:\Programming\Projects\Property\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.pdb
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll.config
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\PropertyManagement.pdb
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.exe.config
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csc.rsp
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.exe.config
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\csi.rsp
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.AppContext.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Console.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.exe.config
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\vbc.rsp
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Owin.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Razor.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\WebGrease.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Helpers.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Mvc.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Optimization.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Razor.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Newtonsoft.Json.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Antlr3.Runtime.pdb
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Net.Http.Formatting.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\System.Web.Http.WebHost.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csprojAssemblyReference.cache
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.HousesAndUserTypes.resources
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.SeedMigration.resources
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.AddFieldToMemebrshipTable.resources
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.house1.resources
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.GenerateResource.cache
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CoreCompileInputs.cache
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.dll
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.pdb
+C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.changes.resources
