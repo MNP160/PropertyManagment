@@ -714,7 +714,7 @@ try {
 
 function Sizzle( selector, context, results, seed ) {
 	var m, i, elem, nid, match, groups, newSelector,
-		newContext = context && context.ownerDocument,
+		newContext = context && context.ExtraInformationDocument,
 
 		// nodeType defaults to 9, since context defaults to document
 		nodeType = context ? context.nodeType : 9;
@@ -731,7 +731,7 @@ function Sizzle( selector, context, results, seed ) {
 	// Try to shortcut find operations (as opposed to filters) in HTML documents
 	if ( !seed ) {
 
-		if ( ( context ? context.ownerDocument || context : preferredDoc ) !== document ) {
+		if ( ( context ? context.ExtraInformationDocument || context : preferredDoc ) !== document ) {
 			setDocument( context );
 		}
 		context = context || document;
@@ -1057,7 +1057,7 @@ support = Sizzle.support = {};
 isXML = Sizzle.isXML = function( elem ) {
 	// documentElement is verified for cases where it doesn't yet exist
 	// (such as loading iframes in IE - #4833)
-	var documentElement = elem && (elem.ownerDocument || elem).documentElement;
+	var documentElement = elem && (elem.ExtraInformationDocument || elem).documentElement;
 	return documentElement ? documentElement.nodeName !== "HTML" : false;
 };
 
@@ -1068,7 +1068,7 @@ isXML = Sizzle.isXML = function( elem ) {
  */
 setDocument = Sizzle.setDocument = function( node ) {
 	var hasCompare, subWindow,
-		doc = node ? node.ownerDocument || node : preferredDoc;
+		doc = node ? node.ExtraInformationDocument || node : preferredDoc;
 
 	// Return early if doc is invalid or already selected
 	if ( doc === document || doc.nodeType !== 9 || !doc.documentElement ) {
@@ -1387,7 +1387,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		}
 
 		// Calculate position if both inputs belong to the same document
-		compare = ( a.ownerDocument || a ) === ( b.ownerDocument || b ) ?
+		compare = ( a.ExtraInformationDocument || a ) === ( b.ExtraInformationDocument || b ) ?
 			a.compareDocumentPosition( b ) :
 
 			// Otherwise we know they are disconnected
@@ -1398,10 +1398,10 @@ setDocument = Sizzle.setDocument = function( node ) {
 			(!support.sortDetached && b.compareDocumentPosition( a ) === compare) ) {
 
 			// Choose the first element that is related to our preferred document
-			if ( a === document || a.ownerDocument === preferredDoc && contains(preferredDoc, a) ) {
+			if ( a === document || a.ExtraInformationDocument === preferredDoc && contains(preferredDoc, a) ) {
 				return -1;
 			}
-			if ( b === document || b.ownerDocument === preferredDoc && contains(preferredDoc, b) ) {
+			if ( b === document || b.ExtraInformationDocument === preferredDoc && contains(preferredDoc, b) ) {
 				return 1;
 			}
 
@@ -1476,7 +1476,7 @@ Sizzle.matches = function( expr, elements ) {
 
 Sizzle.matchesSelector = function( elem, expr ) {
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	if ( ( elem.ExtraInformationDocument || elem ) !== document ) {
 		setDocument( elem );
 	}
 
@@ -1506,7 +1506,7 @@ Sizzle.matchesSelector = function( elem, expr ) {
 
 Sizzle.contains = function( context, elem ) {
 	// Set document vars if needed
-	if ( ( context.ownerDocument || context ) !== document ) {
+	if ( ( context.ExtraInformationDocument || context ) !== document ) {
 		setDocument( context );
 	}
 	return contains( context, elem );
@@ -1514,7 +1514,7 @@ Sizzle.contains = function( context, elem ) {
 
 Sizzle.attr = function( elem, name ) {
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	if ( ( elem.ExtraInformationDocument || elem ) !== document ) {
 		setDocument( elem );
 	}
 
@@ -2490,7 +2490,7 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 			for ( ; i !== len && (elem = elems[i]) != null; i++ ) {
 				if ( byElement && elem ) {
 					j = 0;
-					if ( !context && elem.ownerDocument !== document ) {
+					if ( !context && elem.ExtraInformationDocument !== document ) {
 						setDocument( elem );
 						xml = !documentIsHTML;
 					}
@@ -2944,7 +2944,7 @@ var rootjQuery,
 					// Intentionally let the error be thrown if parseHTML is not present
 					jQuery.merge( this, jQuery.parseHTML(
 						match[ 1 ],
-						context && context.nodeType ? context.ownerDocument || context : document,
+						context && context.nodeType ? context.ExtraInformationDocument || context : document,
 						true
 					) );
 
@@ -3987,7 +3987,7 @@ function fcamelCase( all, letter ) {
 function camelCase( string ) {
 	return string.replace( rmsPrefix, "ms-" ).replace( rdashAlpha, fcamelCase );
 }
-var acceptData = function( owner ) {
+var acceptData = function( ExtraInformation ) {
 
 	// Accepts only:
 	//  - Node
@@ -3995,7 +3995,7 @@ var acceptData = function( owner ) {
 	//    - Node.DOCUMENT_NODE
 	//  - Object
 	//    - Any
-	return owner.nodeType === 1 || owner.nodeType === 9 || !( +owner.nodeType );
+	return ExtraInformation.nodeType === 1 || ExtraInformation.nodeType === 9 || !( +ExtraInformation.nodeType );
 };
 
 
@@ -4009,10 +4009,10 @@ Data.uid = 1;
 
 Data.prototype = {
 
-	cache: function( owner ) {
+	cache: function( ExtraInformation ) {
 
-		// Check if the owner object already has a cache
-		var value = owner[ this.expando ];
+		// Check if the ExtraInformation object already has a cache
+		var value = ExtraInformation[ this.expando ];
 
 		// If not, create one
 		if ( !value ) {
@@ -4021,18 +4021,18 @@ Data.prototype = {
 			// We can accept data for non-element nodes in modern browsers,
 			// but we should not, see #8335.
 			// Always return an empty object.
-			if ( acceptData( owner ) ) {
+			if ( acceptData( ExtraInformation ) ) {
 
 				// If it is a node unlikely to be stringify-ed or looped over
 				// use plain assignment
-				if ( owner.nodeType ) {
-					owner[ this.expando ] = value;
+				if ( ExtraInformation.nodeType ) {
+					ExtraInformation[ this.expando ] = value;
 
 				// Otherwise secure it in a non-enumerable property
 				// configurable must be true to allow the property to be
 				// deleted when data is removed
 				} else {
-					Object.defineProperty( owner, this.expando, {
+					Object.defineProperty( ExtraInformation, this.expando, {
 						value: value,
 						configurable: true
 					} );
@@ -4042,16 +4042,16 @@ Data.prototype = {
 
 		return value;
 	},
-	set: function( owner, data, value ) {
+	set: function( ExtraInformation, data, value ) {
 		var prop,
-			cache = this.cache( owner );
+			cache = this.cache( ExtraInformation );
 
-		// Handle: [ owner, key, value ] args
+		// Handle: [ ExtraInformation, key, value ] args
 		// Always use camelCase key (gh-2257)
 		if ( typeof data === "string" ) {
 			cache[ camelCase( data ) ] = value;
 
-		// Handle: [ owner, { properties } ] args
+		// Handle: [ ExtraInformation, { properties } ] args
 		} else {
 
 			// Copy the properties one-by-one to the cache object
@@ -4061,14 +4061,14 @@ Data.prototype = {
 		}
 		return cache;
 	},
-	get: function( owner, key ) {
+	get: function( ExtraInformation, key ) {
 		return key === undefined ?
-			this.cache( owner ) :
+			this.cache( ExtraInformation ) :
 
 			// Always use camelCase key (gh-2257)
-			owner[ this.expando ] && owner[ this.expando ][ camelCase( key ) ];
+			ExtraInformation[ this.expando ] && ExtraInformation[ this.expando ][ camelCase( key ) ];
 	},
-	access: function( owner, key, value ) {
+	access: function( ExtraInformation, key, value ) {
 
 		// In cases where either:
 		//
@@ -4084,7 +4084,7 @@ Data.prototype = {
 		if ( key === undefined ||
 				( ( key && typeof key === "string" ) && value === undefined ) ) {
 
-			return this.get( owner, key );
+			return this.get( ExtraInformation, key );
 		}
 
 		// When the key is not a string, or both a key and value
@@ -4093,15 +4093,15 @@ Data.prototype = {
 		//   1. An object of properties
 		//   2. A key and value
 		//
-		this.set( owner, key, value );
+		this.set( ExtraInformation, key, value );
 
 		// Since the "set" path can have two possible entry points
 		// return the expected data based on which path was taken[*]
 		return value !== undefined ? value : key;
 	},
-	remove: function( owner, key ) {
+	remove: function( ExtraInformation, key ) {
 		var i,
-			cache = owner[ this.expando ];
+			cache = ExtraInformation[ this.expando ];
 
 		if ( cache === undefined ) {
 			return;
@@ -4139,15 +4139,15 @@ Data.prototype = {
 			// Webkit & Blink performance suffers when deleting properties
 			// from DOM nodes, so set to undefined instead
 			// https://bugs.chromium.org/p/chromium/issues/detail?id=378607 (bug restricted)
-			if ( owner.nodeType ) {
-				owner[ this.expando ] = undefined;
+			if ( ExtraInformation.nodeType ) {
+				ExtraInformation[ this.expando ] = undefined;
 			} else {
-				delete owner[ this.expando ];
+				delete ExtraInformation[ this.expando ];
 			}
 		}
 	},
-	hasData: function( owner ) {
-		var cache = owner[ this.expando ];
+	hasData: function( ExtraInformation ) {
+		var cache = ExtraInformation[ this.expando ];
 		return cache !== undefined && !jQuery.isEmptyObject( cache );
 	}
 };
@@ -4480,7 +4480,7 @@ var isHiddenWithinTree = function( elem, el ) {
 			// Support: Firefox <=43 - 45
 			// Disconnected elements can have computed display: none, so first confirm that elem is
 			// in the document.
-			jQuery.contains( elem.ownerDocument, elem ) &&
+			jQuery.contains( elem.ExtraInformationDocument, elem ) &&
 
 			jQuery.css( elem, "display" ) === "none";
 	};
@@ -4577,7 +4577,7 @@ var defaultDisplayMap = {};
 
 function getDefaultDisplay( elem ) {
 	var temp,
-		doc = elem.ownerDocument,
+		doc = elem.ExtraInformationDocument,
 		nodeName = elem.nodeName,
 		display = defaultDisplayMap[ nodeName ];
 
@@ -4805,7 +4805,7 @@ function buildFragment( elems, context, scripts, selection, ignored ) {
 			continue;
 		}
 
-		contains = jQuery.contains( elem.ownerDocument, elem );
+		contains = jQuery.contains( elem.ExtraInformationDocument, elem );
 
 		// Append to fragment
 		tmp = getAll( fragment.appendChild( elem ), "script" );
@@ -5706,7 +5706,7 @@ function domManip( collection, args, callback, ignored ) {
 	}
 
 	if ( l ) {
-		fragment = buildFragment( args, collection[ 0 ].ownerDocument, false, collection, ignored );
+		fragment = buildFragment( args, collection[ 0 ].ExtraInformationDocument, false, collection, ignored );
 		first = fragment.firstChild;
 
 		if ( fragment.childNodes.length === 1 ) {
@@ -5740,7 +5740,7 @@ function domManip( collection, args, callback, ignored ) {
 			}
 
 			if ( hasScripts ) {
-				doc = scripts[ scripts.length - 1 ].ownerDocument;
+				doc = scripts[ scripts.length - 1 ].ExtraInformationDocument;
 
 				// Reenable scripts
 				jQuery.map( scripts, restoreScript );
@@ -5781,7 +5781,7 @@ function remove( elem, selector, keepData ) {
 		}
 
 		if ( node.parentNode ) {
-			if ( keepData && jQuery.contains( node.ownerDocument, node ) ) {
+			if ( keepData && jQuery.contains( node.ExtraInformationDocument, node ) ) {
 				setGlobalEval( getAll( node, "script" ) );
 			}
 			node.parentNode.removeChild( node );
@@ -5799,7 +5799,7 @@ jQuery.extend( {
 	clone: function( elem, dataAndEvents, deepDataAndEvents ) {
 		var i, l, srcElements, destElements,
 			clone = elem.cloneNode( true ),
-			inPage = jQuery.contains( elem.ownerDocument, elem );
+			inPage = jQuery.contains( elem.ExtraInformationDocument, elem );
 
 		// Fix IE cloning issues
 		if ( !support.noCloneChecked && ( elem.nodeType === 1 || elem.nodeType === 11 ) &&
@@ -6046,7 +6046,7 @@ var getStyles = function( elem ) {
 		// Support: IE <=11 only, Firefox <=30 (#15098, #14150)
 		// IE throws on elements created in popups
 		// FF meanwhile throws on frame elements through "defaultView.getComputedStyle"
-		var view = elem.ownerDocument.defaultView;
+		var view = elem.ExtraInformationDocument.defaultView;
 
 		if ( !view || !view.opener ) {
 			view = window;
@@ -6167,7 +6167,7 @@ function curCSS( elem, name, computed ) {
 	if ( computed ) {
 		ret = computed.getPropertyValue( name ) || computed[ name ];
 
-		if ( ret === "" && !jQuery.contains( elem.ownerDocument, elem ) ) {
+		if ( ret === "" && !jQuery.contains( elem.ExtraInformationDocument, elem ) ) {
 			ret = jQuery.style( elem, name );
 		}
 
@@ -8216,7 +8216,7 @@ jQuery.extend( jQuery.event, {
 		}
 
 		// Determine event propagation path in advance, per W3C events spec (#9951)
-		// Bubble up to document, then to window; watch for a global ownerDocument var (#9724)
+		// Bubble up to document, then to window; watch for a global ExtraInformationDocument var (#9724)
 		if ( !onlyHandlers && !special.noBubble && !isWindow( elem ) ) {
 
 			bubbleType = special.delegateType || type;
@@ -8229,7 +8229,7 @@ jQuery.extend( jQuery.event, {
 			}
 
 			// Only add window if we got to document (e.g., not plain obj or detached DOM)
-			if ( tmp === ( elem.ownerDocument || document ) ) {
+			if ( tmp === ( elem.ExtraInformationDocument || document ) ) {
 				eventPath.push( tmp.defaultView || tmp.parentWindow || window );
 			}
 		}
@@ -8354,7 +8354,7 @@ if ( !support.focusin ) {
 
 		jQuery.event.special[ fix ] = {
 			setup: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ExtraInformationDocument || this,
 					attaches = dataPriv.access( doc, fix );
 
 				if ( !attaches ) {
@@ -8363,7 +8363,7 @@ if ( !support.focusin ) {
 				dataPriv.access( doc, fix, ( attaches || 0 ) + 1 );
 			},
 			teardown: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ExtraInformationDocument || this,
 					attaches = dataPriv.access( doc, fix ) - 1;
 
 				if ( !attaches ) {
@@ -9388,7 +9388,7 @@ jQuery.fn.extend( {
 			}
 
 			// The elements to wrap the target around
-			wrap = jQuery( html, this[ 0 ].ownerDocument ).eq( 0 ).clone( true );
+			wrap = jQuery( html, this[ 0 ].ExtraInformationDocument ).eq( 0 ).clone( true );
 
 			if ( this[ 0 ].parentNode ) {
 				wrap.insertBefore( this[ 0 ] );
@@ -10023,7 +10023,7 @@ jQuery.fn.extend( {
 
 		// Get document-relative position by adding viewport scroll to viewport-relative gBCR
 		rect = elem.getBoundingClientRect();
-		win = elem.ownerDocument.defaultView;
+		win = elem.ExtraInformationDocument.defaultView;
 		return {
 			top: rect.top + win.pageYOffset,
 			left: rect.left + win.pageXOffset
@@ -10052,7 +10052,7 @@ jQuery.fn.extend( {
 
 			// Account for the *real* offset parent, which can be the document or its root element
 			// when a statically positioned element is identified
-			doc = elem.ownerDocument;
+			doc = elem.ExtraInformationDocument;
 			offsetParent = elem.offsetParent || doc.documentElement;
 			while ( offsetParent &&
 				( offsetParent === doc.body || offsetParent === doc.documentElement ) &&

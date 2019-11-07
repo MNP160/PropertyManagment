@@ -48,7 +48,7 @@ namespace PropertyManagement.Models
       
 
            [Required] 
-            public string Owner { get; set; }
+            public string ExtraInformation { get; set; }
 
         [Required]
         public string Address { get; set; }

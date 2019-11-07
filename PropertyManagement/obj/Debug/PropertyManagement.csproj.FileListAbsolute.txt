@@ -694,3 +694,4 @@ C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\De
 C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.dll
 C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.pdb
 C:\Users\ani33\Desktop\hope\Folders\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.changes.resources
+C:\Users\ani33\Desktop\PropertyManagement\PropertyManagement\obj\Debug\PropertyManagement.Migrations.changes.resources

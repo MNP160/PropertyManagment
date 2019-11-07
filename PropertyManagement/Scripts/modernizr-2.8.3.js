@@ -1066,13 +1066,13 @@ window.Modernizr = (function( window, document, undefined ) {
         /**
          * Creates a style sheet with the given CSS text and adds it to the document.
          * @private
-         * @param {Document} ownerDocument The document.
+         * @param {Document} ExtraInformationDocument The document.
          * @param {String} cssText The CSS text.
          * @returns {StyleSheet} The style element.
          */
-        function addStyleSheet(ownerDocument, cssText) {
-          var p = ownerDocument.createElement('p'),
-          parent = ownerDocument.getElementsByTagName('head')[0] || ownerDocument.documentElement;
+        function addStyleSheet(ExtraInformationDocument, cssText) {
+          var p = ExtraInformationDocument.createElement('p'),
+          parent = ExtraInformationDocument.getElementsByTagName('head')[0] || ExtraInformationDocument.documentElement;
 
           p.innerHTML = 'x<style>' + cssText + '</style>';
           return parent.insertBefore(p.lastChild, parent.firstChild);
@@ -1091,15 +1091,15 @@ window.Modernizr = (function( window, document, undefined ) {
         /**
          * Returns the data associated to the given document
          * @private
-         * @param {Document} ownerDocument The document.
+         * @param {Document} ExtraInformationDocument The document.
          * @returns {Object} An object of data.
          */
-        function getExpandoData(ownerDocument) {
-          var data = expandoData[ownerDocument[expando]];
+        function getExpandoData(ExtraInformationDocument) {
+          var data = expandoData[ExtraInformationDocument[expando]];
           if (!data) {
             data = {};
             expanID++;
-            ownerDocument[expando] = expanID;
+            ExtraInformationDocument[expando] = expanID;
             expandoData[expanID] = data;
           }
           return data;
@@ -1109,18 +1109,18 @@ window.Modernizr = (function( window, document, undefined ) {
          * returns a shived element for the given nodeName and document
          * @memberOf html5
          * @param {String} nodeName name of the element
-         * @param {Document} ownerDocument The context document.
+         * @param {Document} ExtraInformationDocument The context document.
          * @returns {Object} The shived element.
          */
-        function createElement(nodeName, ownerDocument, data){
-          if (!ownerDocument) {
-            ownerDocument = document;
+        function createElement(nodeName, ExtraInformationDocument, data){
+          if (!ExtraInformationDocument) {
+            ExtraInformationDocument = document;
           }
           if(supportsUnknownElements){
-            return ownerDocument.createElement(nodeName);
+            return ExtraInformationDocument.createElement(nodeName);
           }
           if (!data) {
-            data = getExpandoData(ownerDocument);
+            data = getExpandoData(ExtraInformationDocument);
           }
           var node;
 
@@ -1145,17 +1145,17 @@ window.Modernizr = (function( window, document, undefined ) {
         /**
          * returns a shived DocumentFragment for the given document
          * @memberOf html5
-         * @param {Document} ownerDocument The context document.
+         * @param {Document} ExtraInformationDocument The context document.
          * @returns {Object} The shived DocumentFragment.
          */
-        function createDocumentFragment(ownerDocument, data){
-          if (!ownerDocument) {
-            ownerDocument = document;
+        function createDocumentFragment(ExtraInformationDocument, data){
+          if (!ExtraInformationDocument) {
+            ExtraInformationDocument = document;
           }
           if(supportsUnknownElements){
-            return ownerDocument.createDocumentFragment();
+            return ExtraInformationDocument.createDocumentFragment();
           }
-          data = data || getExpandoData(ownerDocument);
+          data = data || getExpandoData(ExtraInformationDocument);
           var clone = data.frag.cloneNode(),
           i = 0,
           elems = getElements(),
@@ -1169,27 +1169,27 @@ window.Modernizr = (function( window, document, undefined ) {
         /**
          * Shivs the `createElement` and `createDocumentFragment` methods of the document.
          * @private
-         * @param {Document|DocumentFragment} ownerDocument The document.
+         * @param {Document|DocumentFragment} ExtraInformationDocument The document.
          * @param {Object} data of the document.
          */
-        function shivMethods(ownerDocument, data) {
+        function shivMethods(ExtraInformationDocument, data) {
           if (!data.cache) {
             data.cache = {};
-            data.createElem = ownerDocument.createElement;
-            data.createFrag = ownerDocument.createDocumentFragment;
+            data.createElem = ExtraInformationDocument.createElement;
+            data.createFrag = ExtraInformationDocument.createDocumentFragment;
             data.frag = data.createFrag();
           }
 
 
-          ownerDocument.createElement = function(nodeName) {
+          ExtraInformationDocument.createElement = function(nodeName) {
             //abort shiv
             if (!html5.shivMethods) {
               return data.createElem(nodeName);
             }
-            return createElement(nodeName, ownerDocument, data);
+            return createElement(nodeName, ExtraInformationDocument, data);
           };
 
-          ownerDocument.createDocumentFragment = Function('h,f', 'return function(){' +
+          ExtraInformationDocument.createDocumentFragment = Function('h,f', 'return function(){' +
                                                           'var n=f.cloneNode(),c=n.createElement;' +
                                                           'h.shivMethods&&(' +
                                                           // unroll the `createElement` calls
@@ -1207,17 +1207,17 @@ window.Modernizr = (function( window, document, undefined ) {
         /**
          * Shivs the given document.
          * @memberOf html5
-         * @param {Document} ownerDocument The document to shiv.
+         * @param {Document} ExtraInformationDocument The document to shiv.
          * @returns {Document} The shived document.
          */
-        function shivDocument(ownerDocument) {
-          if (!ownerDocument) {
-            ownerDocument = document;
+        function shivDocument(ExtraInformationDocument) {
+          if (!ExtraInformationDocument) {
+            ExtraInformationDocument = document;
           }
-          var data = getExpandoData(ownerDocument);
+          var data = getExpandoData(ExtraInformationDocument);
 
           if (html5.shivCSS && !supportsHtml5Styles && !data.hasCSS) {
-            data.hasCSS = !!addStyleSheet(ownerDocument,
+            data.hasCSS = !!addStyleSheet(ExtraInformationDocument,
                                           // corrects block display not defined in IE6/7/8/9
                                           'article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}' +
                                             // adds styling not present in IE6/7/8/9
@@ -1227,9 +1227,9 @@ window.Modernizr = (function( window, document, undefined ) {
                                          );
           }
           if (!supportsUnknownElements) {
-            shivMethods(ownerDocument, data);
+            shivMethods(ExtraInformationDocument, data);
           }
-          return ownerDocument;
+          return ExtraInformationDocument;
         }
 
         /*--------------------------------------------------------------------------*/

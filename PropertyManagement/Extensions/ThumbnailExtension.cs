@@ -19,6 +19,7 @@ namespace PropertyManagement.Extensions
                               {
                                   HouseId = b.Id,
                                   Address=b.Address,
+                                  
                                   SalePrice = b.SalePrice.ToString(),
                                  
                                   ImageUrl = b.ImageUrl,

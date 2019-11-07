@@ -46,7 +46,7 @@ namespace PropertyManagement.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Description,NumberOfRooms,NumberOfBathrooms,NumberOfBedrooms,ImageUrl,Avaibility,RentalPrice,DateAdded,Owner,Address")] House1 house1)
+        public ActionResult Create([Bind(Include = "Id,Description,NumberOfRooms,NumberOfBathrooms,NumberOfBedrooms,ImageUrl,Avaibility,RentalPrice,DateAdded,ExtraInformation,Address")] House1 house1)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace PropertyManagement.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Description,NumberOfRooms,NumberOfBathrooms,NumberOfBedrooms,ImageUrl,Avaibility,RentalPrice,DateAdded,Owner,Address")] House1 house1)
+        public ActionResult Edit([Bind(Include = "Id,Description,NumberOfRooms,NumberOfBathrooms,NumberOfBedrooms,ImageUrl,Avaibility,RentalPrice,DateAdded,ExtraInformation,Address")] House1 house1)
         {
             if (ModelState.IsValid)
             {

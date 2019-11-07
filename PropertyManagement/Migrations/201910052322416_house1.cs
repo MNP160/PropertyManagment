@@ -20,7 +20,7 @@ namespace PropertyManagement.Migrations
                         Avaibility = c.Int(nullable: false),
                         RentalPrice = c.Double(nullable: false),
                         DateAdded = c.DateTime(nullable: false),
-                        Owner = c.String(nullable: false),
+                        ExtraInformation = c.String(nullable: false),
                         Address = c.String(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
