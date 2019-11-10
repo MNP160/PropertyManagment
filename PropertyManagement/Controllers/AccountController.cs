@@ -169,7 +169,6 @@ namespace PropertyManagement.Controllers
                     LastName = model.LastName,
                     FirstName = model.FirstName,
                     Phone = model.Phone,
-                    MembershipTypeId = model.MembershipTypeId,
                     Disable = false
                 };
                 var result = await UserManager.CreateAsync(user, model.Password);
@@ -433,7 +432,7 @@ namespace PropertyManagement.Controllers
                     LastName = lastName,
                     BirthDate = model.BirthDate,
                     Phone = model.Phone,
-                    MembershipTypeId = model.MembershipTypeId,
+                 
                     Disable = false
                 };
                 var result = await UserManager.CreateAsync(user);

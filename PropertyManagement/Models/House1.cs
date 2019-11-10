@@ -38,6 +38,8 @@ namespace PropertyManagement.Models
         [DataType(DataType.Currency)]
         public double RentalPrice { get; set; }
 
+     
+
 
         [Required]
         [DataType(DataType.Date)]

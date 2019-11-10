@@ -184,6 +184,8 @@
     <Compile Include="Controllers\ApplicationUsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HousesForRentController.cs" />
+    <Compile Include="Controllers\HouseForRentDetailController.cs" />
+    <Compile Include="Controllers\HouseForSaleDetailController.cs" />
     <Compile Include="Controllers\HousesForSaleController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\UserTypeController.cs" />
@@ -209,14 +211,42 @@
     <Compile Include="Migrations\201910052322416_house1.Designer.cs">
       <DependentUpon>201910052322416_house1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911070151186_changes.cs" />
-    <Compile Include="Migrations\201911070151186_changes.Designer.cs">
-      <DependentUpon>201911070151186_changes.cs</DependentUpon>
+    <Compile Include="Migrations\201911090127232_changes.cs" />
+    <Compile Include="Migrations\201911090127232_changes.Designer.cs">
+      <DependentUpon>201911090127232_changes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911090142110_ch.cs" />
+    <Compile Include="Migrations\201911090142110_ch.Designer.cs">
+      <DependentUpon>201911090142110_ch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911090306548_morechanges.cs" />
+    <Compile Include="Migrations\201911090306548_morechanges.Designer.cs">
+      <DependentUpon>201911090306548_morechanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911090423535_b.cs" />
+    <Compile Include="Migrations\201911090423535_b.Designer.cs">
+      <DependentUpon>201911090423535_b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911090434562_users.cs" />
+    <Compile Include="Migrations\201911090434562_users.Designer.cs">
+      <DependentUpon>201911090434562_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911100043194_HouseSaleDetails.cs" />
+    <Compile Include="Migrations\201911100043194_HouseSaleDetails.Designer.cs">
+      <DependentUpon>201911100043194_HouseSaleDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911100049578_findingbugs.cs" />
+    <Compile Include="Migrations\201911100049578_findingbugs.Designer.cs">
+      <DependentUpon>201911100049578_findingbugs.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\House.cs" />
     <Compile Include="Models\House1.cs" />
+    <Compile Include="Models\HouseRent.cs" />
+    <Compile Include="Models\HouseRentalViewmodel.cs" />
+    <Compile Include="Models\HouseSale.cs" />
+    <Compile Include="Models\HouseSaleViewmodel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Offers.cs" />
@@ -232,9 +262,24 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\HouseRentDetail.css" />
     <Content Include="Content\Images\1.jpg" />
     <Content Include="Content\Images\10.jpg" />
+    <Content Include="Content\Images\11.jpg" />
+    <Content Include="Content\Images\12.jpg" />
+    <Content Include="Content\Images\13.jpg" />
+    <Content Include="Content\Images\14.jpg" />
+    <Content Include="Content\Images\15.jpg" />
+    <Content Include="Content\Images\16.jpg" />
+    <Content Include="Content\Images\17.jpg" />
+    <Content Include="Content\Images\18.jpg" />
+    <Content Include="Content\Images\19.jpg" />
     <Content Include="Content\Images\2.jpg" />
+    <Content Include="Content\Images\20.jpg" />
+    <Content Include="Content\Images\21.jpg" />
+    <Content Include="Content\Images\22.jpg" />
+    <Content Include="Content\Images\23.jpg" />
+    <Content Include="Content\Images\24.jpg" />
     <Content Include="Content\Images\3.jpg" />
     <Content Include="Content\Images\4.jpg" />
     <Content Include="Content\Images\5.jpg" />
@@ -299,23 +344,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_AdminMenuPartial.cshtml" />
-    <Content Include="Views\HousesForSale\Create.cshtml" />
-    <Content Include="Views\HousesForSale\Details.cshtml" />
-    <Content Include="Views\HousesForSale\Index.cshtml" />
-    <Content Include="Views\HousesForSale\Edit.cshtml" />
     <Content Include="Views\UserType\Create.cshtml" />
     <Content Include="Views\UserType\Delete.cshtml" />
     <Content Include="Views\UserType\Details.cshtml" />
     <Content Include="Views\UserType\Edit.cshtml" />
     <Content Include="Views\UserType\Index.cshtml" />
-    <Content Include="Views\HousesForSale\Delete.cshtml" />
     <Content Include="Views\Shared\_ThumbnailAreaPartial.cshtml" />
     <Content Include="Views\Manage\Edit.cshtml" />
-    <Content Include="Views\HousesForRent\Create.cshtml" />
-    <Content Include="Views\HousesForRent\Delete.cshtml" />
-    <Content Include="Views\HousesForRent\Details.cshtml" />
-    <Content Include="Views\HousesForRent\Edit.cshtml" />
-    <Content Include="Views\HousesForRent\Index.cshtml" />
     <Content Include="Views\Shared\_ThumbnailAreaPartial1.cshtml" />
     <Content Include="Views\Home\ForSale.cshtml" />
     <Content Include="Views\Home\ForRent.cshtml" />
@@ -324,6 +359,18 @@
     <Content Include="Views\ApplicationUsers\Details.cshtml" />
     <Content Include="Views\ApplicationUsers\Edit.cshtml" />
     <Content Include="Views\ApplicationUsers\Index.cshtml" />
+    <Content Include="Views\HouseForRentDetail\Index.cshtml" />
+    <Content Include="Views\HouseForSaleDetail\Index.cshtml" />
+    <Content Include="Views\HousesForSale\Create.cshtml" />
+    <Content Include="Views\HousesForSale\Delete.cshtml" />
+    <Content Include="Views\HousesForSale\Details.cshtml" />
+    <Content Include="Views\HousesForSale\Edit.cshtml" />
+    <Content Include="Views\HousesForSale\Index.cshtml" />
+    <Content Include="Views\HousesForRent\Create.cshtml" />
+    <Content Include="Views\HousesForRent\Delete.cshtml" />
+    <Content Include="Views\HousesForRent\Details.cshtml" />
+    <Content Include="Views\HousesForRent\Edit.cshtml" />
+    <Content Include="Views\HousesForRent\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -354,8 +401,26 @@
     <EmbeddedResource Include="Migrations\201910052322416_house1.resx">
       <DependentUpon>201910052322416_house1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911070151186_changes.resx">
-      <DependentUpon>201911070151186_changes.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911090127232_changes.resx">
+      <DependentUpon>201911090127232_changes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911090142110_ch.resx">
+      <DependentUpon>201911090142110_ch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911090306548_morechanges.resx">
+      <DependentUpon>201911090306548_morechanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911090423535_b.resx">
+      <DependentUpon>201911090423535_b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911090434562_users.resx">
+      <DependentUpon>201911090434562_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911100043194_HouseSaleDetails.resx">
+      <DependentUpon>201911100043194_HouseSaleDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911100049578_findingbugs.resx">
+      <DependentUpon>201911100049578_findingbugs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

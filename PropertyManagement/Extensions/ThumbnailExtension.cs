@@ -23,19 +23,19 @@ namespace PropertyManagement.Extensions
                                   SalePrice = b.SalePrice.ToString(),
                                  
                                   ImageUrl = b.ImageUrl,
-                                  Link = "/HouseDetail/Index/" + b.Id,
+                                  Link = "/HouseForSaleDetail/Index/" + b.Id,
                               }).ToList();
 
                 if (search != null)
                 {
-                    return thumbnails.Where(t => t.Address.ToLower().Contains(search.ToLower())).OrderBy(t => t.Address);
+                    return thumbnails.Where(t => t.SalePrice.ToLower().Contains(search.ToLower())).OrderBy(t => t.SalePrice);
                 }
             }
             catch 
             {
 
             }
-            return thumbnails.OrderBy(t => t.Address);
+            return thumbnails.OrderBy(t => t.SalePrice);
 
         }
     }

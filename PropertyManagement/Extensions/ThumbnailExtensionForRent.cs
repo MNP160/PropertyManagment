@@ -22,22 +22,22 @@ namespace PropertyManagement.Extensions
                               {
                                   HouseId = b.Id,
                                   Address = b.Address,
-                                  //SalePrice = b.SalePrice.ToString(),
+                             
                                   RentalPrice=b.RentalPrice.ToString(),
                                   ImageUrl = b.ImageUrl,
-                                  Link = "/House1Detail/Index/" + b.Id,
+                                  Link = "/HouseForRentDetail/Index/" + b.Id,
                               }).ToList();
 
                 if (search != null)
                 {
-                    return thumbnails1.Where(t => t.Address.ToLower().Contains(search.ToLower())).OrderBy(t => t.Address);
+                    return thumbnails1.Where(t => t.RentalPrice.ToLower().Contains(search.ToLower())).OrderBy(t => t.RentalPrice);
                 }
             }
             catch
             {
 
             }
-            return thumbnails1.OrderBy(t => t.Address);
+            return thumbnails1.OrderBy(t => t.RentalPrice);
 
         }
     }

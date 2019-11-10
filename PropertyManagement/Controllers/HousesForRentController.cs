@@ -14,13 +14,13 @@ namespace PropertyManagement.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: HousesForRent
+        // GET: HouseForRent
         public ActionResult Index()
         {
             return View(db.Houses1.ToList());
         }
 
-        // GET: HousesForRent/Details/5
+        // GET: HouseForRent/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -35,13 +35,13 @@ namespace PropertyManagement.Controllers
             return View(house1);
         }
 
-        // GET: HousesForRent/Create
+        // GET: HouseForRent/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: HousesForRent/Create
+        // POST: HouseForRent/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -58,7 +58,7 @@ namespace PropertyManagement.Controllers
             return View(house1);
         }
 
-        // GET: HousesForRent/Edit/5
+        // GET: HouseForRent/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -73,7 +73,7 @@ namespace PropertyManagement.Controllers
             return View(house1);
         }
 
-        // POST: HousesForRent/Edit/5
+        // POST: HouseForRent/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -89,7 +89,7 @@ namespace PropertyManagement.Controllers
             return View(house1);
         }
 
-        // GET: HousesForRent/Delete/5
+        // GET: HouseForRent/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -104,7 +104,7 @@ namespace PropertyManagement.Controllers
             return View(house1);
         }
 
-        // POST: HousesForRent/Delete/5
+        // POST: HouseForRent/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

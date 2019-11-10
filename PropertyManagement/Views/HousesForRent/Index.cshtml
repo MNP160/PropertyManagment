@@ -4,16 +4,14 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Manage Properties For Rent</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
+       
         <th>
             @Html.DisplayNameFor(model => model.NumberOfRooms)
         </th>
@@ -46,9 +44,7 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
+        
         <td>
             @Html.DisplayFor(modelItem => item.NumberOfRooms)
         </td>

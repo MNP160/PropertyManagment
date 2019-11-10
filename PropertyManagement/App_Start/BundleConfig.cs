@@ -27,6 +27,7 @@ namespace PropertyManagement
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/thumbnail.css",
+                      "~/Content/HouseRentDetail.css",
                       "~/Content/site.css"));
         }
     }

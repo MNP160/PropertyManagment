@@ -9,102 +9,90 @@
 <div>
     <h4>House</h4>
     <hr />
-    <div class="row" style="border:1px solid #bbb9b9; border-radius:5px;padding-left:25px;">
-        <dl class="dl-horizontal">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Description)
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
 
-            </dt>
-          
-            <dd>
-                @Html.DisplayFor(model => model.Description)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfRooms)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.NumberOfRooms)
-            </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfRooms)
+        </dd>
 
-            <dd>
-                @Html.DisplayFor(model => model.NumberOfRooms)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfBathrooms)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.NumberOfBathrooms)
-            </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfBathrooms)
+        </dd>
 
-            <dd>
-                @Html.DisplayFor(model => model.NumberOfBathrooms)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfBedrooms)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.NumberOfBedrooms)
-            </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfBedrooms)
+        </dd>
 
-            <dd>
-                @Html.DisplayFor(model => model.NumberOfBedrooms)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
 
-            <dd>
-                @Html.DisplayFor(model => model.ImageUrl)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Avaibility)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Avaibility)
-            </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Avaibility)
+        </dd>
 
-            <dd>
-                @Html.DisplayFor(model => model.Avaibility)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </dt>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.SalePrice)
-            </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalePrice)
+        </dd>
 
-            <dd>
-                @Html.DisplayFor(model => model.SalePrice)
-            </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateAdded)
+        </dt>
 
-           
+        <dd>
+            @Html.DisplayFor(model => model.DateAdded)
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.DateAdded)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.ExtraInformation)
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.DateAdded)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.ExtraInformation)
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.ExtraInformation)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.ExtraInformation)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Address)
-            </dt>
-
-            <dd>
-                @Html.DisplayFor(model => model.Address)
-            </dd>
-
-        </dl>
-        <div class="col-sm-2">
-            <div>
-                <img src="@Model.ImageUrl" alt="" style="width:125%;height:125%;border:0; float:left;" />
-            </div>
-        </div>
-    </div>
+    </dl>
 </div>
-
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

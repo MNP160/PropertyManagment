@@ -82,7 +82,7 @@ namespace PropertyManagement.Controllers
                     Id = userInDb.Id,
                     FirstName = userInDb.FirstName,
                     LastName = userInDb.LastName,
-                    MembershipTypeId = userInDb.MembershipTypeId,
+                   
                     UserTypes = db.UserTypes.ToList(),
                     Phone = userInDb.Phone
                 };
@@ -111,7 +111,7 @@ namespace PropertyManagement.Controllers
                     Id = userInDb.Id,
                     FirstName = userInDb.FirstName,
                     LastName = userInDb.LastName,
-                    MembershipTypeId = userInDb.MembershipTypeId,
+                   
                     UserTypes = db.UserTypes.ToList(),
                     Phone = userInDb.Phone
                 };
