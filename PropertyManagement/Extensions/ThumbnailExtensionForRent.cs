@@ -36,11 +36,11 @@ namespace PropertyManagement.Extensions
                 {
                     if (property.ToLower().Equals("price"))
                     {
-                        return thumbnails1.Where(x => x.RentalPrice > low && x.RentalPrice < high);
+                        return thumbnails1.Where(x => x.RentalPrice >= low && x.RentalPrice <= high);
                     }
                     else if (property.ToLower().Equals("bedrooms"))
                     {
-                        return thumbnails1.Where(x=>x.numberOfBedrooms>low&&x.numberOfBedrooms<high);
+                        return thumbnails1.Where(x=>x.numberOfBedrooms>=low&&x.numberOfBedrooms<=high);
                     }
                 }
             }

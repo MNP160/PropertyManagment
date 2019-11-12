@@ -34,11 +34,11 @@ namespace PropertyManagement.Extensions
                 {
                     if (property.ToLower().Equals("price"))
                     {
-                        return thumbnails.Where(x => x.SalePrice > low && x.SalePrice < high);
+                        return thumbnails.Where(x => x.SalePrice >= low && x.SalePrice <= high);
                     }
                     else if (property.ToLower().Equals("bedrooms"))
                     {
-                        return thumbnails.Where(x=>x.numberOfBedrooms>low&&x.numberOfBedrooms<high);
+                        return thumbnails.Where(x=>x.numberOfBedrooms>=low&&x.numberOfBedrooms<=high);
                     }
                 }
             }
