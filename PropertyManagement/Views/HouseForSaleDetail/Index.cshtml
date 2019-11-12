@@ -1,0 +1,124 @@
+﻿@model PropertyManagement.Models.HouseSaleViewmodel
+@using PropertyManagement.Utility
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("Buy", "HouseSale"))
+{
+    @Html.AntiForgeryToken();
+
+    <div class="row">
+        @* Book Image *@
+        <div class="col-sm-3 col-xs-4 image-book">
+            <img class="thumbnail-img" src="@Model.ImageUrl" alt="" style="width:100%;height:auto;padding:10px;" />
+        </div>
+
+
+        @* Book Details(Title/Author/Description) *@
+        <div class="col-sm-6 col-xs-8 content-book-main">
+            <div class="content-book-title-author">
+                <h2><b>@Model.Address</b></h2>
+
+            </div>
+            <div>
+                <br />
+                <span>@Html.Raw(Model.Description)</span>
+            </div><br />
+        </div>
+
+
+        <div class="col-sm-3 col-xs-12 content-book-product-details">
+            <div>
+
+
+
+                <br />
+
+                <br />
+
+
+
+                @if (Model.Avaibility > 0)
+                {
+                    <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;Buy
+                    </button>
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-danger" disabled="disabled">
+                        <span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;Unavailable
+                    </button>
+                }
+            </div>
+
+
+
+
+
+            <h4 class="product-details-heading">House Details</h4>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.Address)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.Address)
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.DateAdded)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.DateAdded)
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.NumberOfBathrooms)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.NumberOfBathrooms)
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.NumberOfRooms)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.NumberOfRooms)
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.NumberOfBedrooms)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.NumberOfBedrooms)
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.SalePrice)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.SalePrice)
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    @Html.DisplayNameFor(m => m.ExtraInformation)
+                </dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp; @Html.DisplayFor(m => m.ExtraInformation)
+                </dd>
+            </dl>
+
+
+
+        </div>
+    </div>
+}
+
