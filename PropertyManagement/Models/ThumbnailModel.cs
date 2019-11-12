@@ -9,9 +9,10 @@ namespace PropertyManagement.Models
     {
         public int HouseId { get; set; }
         public string Address { get; set; }
-        public string SalePrice { get; set; }
-        public string RentalPrice { get; set; }
+        public int SalePrice { get; set; }
+        public int RentalPrice { get; set; }
         public string ImageUrl { get; set; }
         public string Link { get; set; }
+        public int numberOfBedrooms { get; set; }
     }
 }

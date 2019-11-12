@@ -34,11 +34,11 @@ namespace PropertyManagement.Controllers
             */
             return View();
         }
-        public ActionResult ForSale(string search = null)
+        public ActionResult ForSale(int? low, int? high, string property=null ,string search = null)
         {
 
-            var thumbnails1 = new List<ThumbnailModel>().GetHouse1Thumbnail(ApplicationDbContext.Create(), search);
-            var thumbnails = new List<ThumbnailModel>().GetHouseThumbnail(ApplicationDbContext.Create(), search);
+            var thumbnails1 = new List<ThumbnailModel>().GetHouse1Thumbnail(low, high, property, ApplicationDbContext.Create(),  search);
+            var thumbnails = new List<ThumbnailModel>().GetHouseThumbnail(low, high, property, ApplicationDbContext.Create(), search );
             var count = thumbnails.Count() / 4;
 
             var model = new List<ThumbnailBoxViewModel>();
@@ -56,11 +56,11 @@ namespace PropertyManagement.Controllers
             return View(model);
 
         }
-        public ActionResult ForRent(string search = null)
+        public ActionResult ForRent(int? low, int? high, string property = null, string search = null)
         {
 
-            var thumbnails1 = new List<ThumbnailModel>().GetHouse1Thumbnail(ApplicationDbContext.Create(), search);
-            var thumbnails = new List<ThumbnailModel>().GetHouseThumbnail(ApplicationDbContext.Create(), search);
+            var thumbnails1 = new List<ThumbnailModel>().GetHouse1Thumbnail(low, high, property, ApplicationDbContext.Create(), search);
+            var thumbnails = new List<ThumbnailModel>().GetHouseThumbnail(low, high, property, ApplicationDbContext.Create(), search);
             var count = thumbnails.Count() / 4;
 
             var model = new List<ThumbnailBoxViewModel>();

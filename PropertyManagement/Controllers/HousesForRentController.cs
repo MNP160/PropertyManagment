@@ -15,9 +15,19 @@ namespace PropertyManagement.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: HouseForRent
-        public ActionResult Index()
+        public ActionResult Index(int? low, int? high)
         {
-            return View(db.Houses1.ToList());
+            ViewData["high"] = high;
+            ViewData["low"] = low;
+
+            var houses = from house in db.Houses1 select house;
+            if (low != null && high != null)
+            {
+                houses = db.Houses1.Where(x => x.RentalPrice > low && x.RentalPrice < high);
+
+            }
+
+            return View(houses.AsNoTracking().AsEnumerable());
         }
 
         // GET: HouseForRent/Details/5
@@ -114,6 +124,10 @@ namespace PropertyManagement.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+
+      
+
 
         protected override void Dispose(bool disposing)
         {

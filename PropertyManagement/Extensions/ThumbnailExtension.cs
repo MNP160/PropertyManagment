@@ -8,7 +8,7 @@ namespace PropertyManagement.Extensions
 {
     public static class ThumbnailExtensions
     {
-        public static IEnumerable<ThumbnailModel> GetHouseThumbnail(this List<ThumbnailModel> thumbnails, ApplicationDbContext db = null, string search = null)
+        public static IEnumerable<ThumbnailModel> GetHouseThumbnail(this List<ThumbnailModel> thumbnails, int? low, int? high, string property, ApplicationDbContext db = null,  string search = null)
         {
             try
             {
@@ -19,16 +19,27 @@ namespace PropertyManagement.Extensions
                               {
                                   HouseId = b.Id,
                                   Address=b.Address,
+                                  numberOfBedrooms=b.NumberOfBedrooms,
+                                  SalePrice =  (int)b.SalePrice,
                                   
-                                  SalePrice = b.SalePrice.ToString(),
-                                 
                                   ImageUrl = b.ImageUrl,
                                   Link = "/HouseForSaleDetail/Index/" + b.Id,
                               }).ToList();
 
                 if (search != null)
                 {
-                    return thumbnails.Where(t => t.SalePrice.ToLower().Contains(search.ToLower())).OrderBy(t => t.SalePrice);
+                    return thumbnails.Where(t => t.Address.ToLower().Contains(search.ToLower())).OrderBy(t => t.SalePrice);
+                }
+                if(low!=null && high !=null &&property!=null)
+                {
+                    if (property.ToLower().Equals("price"))
+                    {
+                        return thumbnails.Where(x => x.SalePrice > low && x.SalePrice < high);
+                    }
+                    else if (property.ToLower().Equals("bedrooms"))
+                    {
+                        return thumbnails.Where(x=>x.numberOfBedrooms>low&&x.numberOfBedrooms<high);
+                    }
                 }
             }
             catch 

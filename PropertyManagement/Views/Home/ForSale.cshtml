@@ -23,6 +23,20 @@
 
     <br />
 }
+
+@using (Html.BeginForm("ForSale", "Home", FormMethod.Get))
+    {
+<div class="row">
+    <p>
+        Enter Lower Bound: <input type="text" name="low" value="@ViewData["low"]" />
+        Enter Upper Bound: <input type="text" name="high" value="@ViewData["high"]" />
+        Filter By: <input type="text" , name="property" placeholder="Price or # of Bedrooms" />
+        <input type="submit" value="Filter" class="btn btn-default" />
+
+    </p>
+</div>
+         }
+
 <div class="row">
     @foreach (var area in Model)
     {
