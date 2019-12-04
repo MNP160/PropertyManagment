@@ -52,6 +52,7 @@ namespace PropertyManagement.Models
 
         [Required]
         public string Address { get; set; }
+        public ICollection<OffersForRent> Offers { get; set; }
 
 
 

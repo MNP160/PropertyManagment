@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
 using PropertyManagement.Models;
@@ -123,5 +124,51 @@ namespace PropertyManagement.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult SendMail()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult SendMail(string receiver, string subject, string message)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var senderEmail = new MailAddress("mpenev13@gmail.com", "Mladen");
+                    var receiverEmail = new MailAddress(receiver, "ReceiverName" );
+                    var password = "redacted";
+                    var sub = subject;
+                    var body = message;
+                    var smtp = new SmtpClient
+                    {
+                        Host= "smtp.gmail.com",
+                        Port = 587,
+                        EnableSsl = true,
+                        DeliveryMethod = SmtpDeliveryMethod.Network,
+                        UseDefaultCredentials = false,
+                        Credentials = new NetworkCredential(senderEmail.Address, password) //need to edit here
+                    };
+                    using (var mess = new MailMessage(senderEmail, receiverEmail)
+                    {
+                        Subject = subject,
+                        Body = body
+                    })
+                    {
+                        smtp.Send(mess);
+                    }
+                    return RedirectToAction("Index", "Home");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+            }
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }

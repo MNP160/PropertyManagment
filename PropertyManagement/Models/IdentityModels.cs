@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -12,7 +13,11 @@ namespace PropertyManagement.Models
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
-       
+        //   public virtual  OffersForRent OffersForRent { get; set; }
+        //public virtual OffersForSale OffersForSale { get; set; }
+        public ICollection<OffersForSale> OffersForSale { get; set; }
+
+        public ICollection<OffersForRent> OffersForRent { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Phone { get; set; }
@@ -46,7 +51,16 @@ namespace PropertyManagement.Models
             return new ApplicationDbContext();
         }
 
-      //  public System.Data.Entity.DbSet<PropertyManagement.Models.UserViewModel> UserViewModels { get; set; }
+        public System.Data.Entity.DbSet<PropertyManagement.Models.OffersForRent> OffersForRents { get; set; }
+
+       // public System.Data.Entity.DbSet<PropertyManagement.Models.ApplicationUser> ApplicationUsers { get; set; }
+
+        public System.Data.Entity.DbSet<PropertyManagement.Models.OffersForSale> OffersForSales { get; set; }
+
+
+
+
+        //  public System.Data.Entity.DbSet<PropertyManagement.Models.UserViewModel> UserViewModels { get; set; }
 
         // public System.Data.Entity.DbSet<PropertyManagement.Models.ApplicationUser> ApplicationUsers { get; set; }
     }

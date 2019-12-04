@@ -1,0 +1,42 @@
+﻿@model PropertyManagement.Models.OffersForSale
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OffersForSale</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.user.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfferAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfferAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Accepted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Accepted)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OfferId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

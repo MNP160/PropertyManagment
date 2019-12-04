@@ -3,8 +3,14 @@
 
 @{
     ViewBag.Title = "Index";
+
 }
 
+@using (Html.BeginForm("Create", "OffersforRents", FormMethod.Get))
+{
+    @Html.HiddenFor(m => m.Id)
+    <input type="submit" value="Make Offer" />
+}
 @using (Html.BeginForm("Rent", "HouseRent"))
 {
     @Html.AntiForgeryToken();
@@ -27,7 +33,7 @@
                 <span>@Html.Raw(Model.Description)</span>
             </div><br />
         </div>
-        
+
 
         <div class="col-sm-3 col-xs-12 content-book-product-details">
             <div>
@@ -52,6 +58,9 @@
                         <span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;Unavailable
                     </button>
                 }
+
+
+
             </div>
 
 
@@ -117,7 +126,7 @@
             </dl>
 
 
-            
+
         </div>
     </div>
 }

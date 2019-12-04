@@ -946,3 +946,6 @@ D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\D
 D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.csproj.CopyComplete
 D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.dll
 D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.pdb
+D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.offers.resources
+D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.FixedModelError.resources
+D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.MoreErrorsFixeWithModel.resources

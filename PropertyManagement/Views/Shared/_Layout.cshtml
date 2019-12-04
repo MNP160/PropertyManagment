@@ -24,10 +24,16 @@
                 {
                     if (User.IsInRole("admin"))
                     {
-                        <ul class="nav navbar-nav">
-                            @Html.Partial("_AdminMenuPartial")
 
-                        </ul>
+              
+                <ul class="nav navbar-nav">
+
+                    <li>@Html.ActionLink("Send Mail", "SendMail", "ApplicationUsers")</li>
+                    @Html.Partial("_AdminMenuPartial")
+                    <li>@Html.ActionLink("Sales Offers", "Index", "OffersforSales")</li>
+                    <li>@Html.ActionLink("Rents Offers", "Index", "OffersforRents")</li>
+
+                </ul>
                     }
                 }
                         @Html.Partial("_LoginPartial")

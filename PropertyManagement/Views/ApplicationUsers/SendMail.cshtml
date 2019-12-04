@@ -1,0 +1,23 @@
+﻿<h1>Send Mail</h1>
+
+@using (Html.BeginForm("SendMail", "ApplicationUsers", FormMethod.Post))
+{
+    @Html.Label("Receiver");
+    <br />
+    @Html.TextBox("receiver");
+    <br />
+
+    @Html.Label("Subject");
+    <br />
+    @Html.TextBox("subject");
+    <br />
+
+    @Html.Label("Message");
+    <br />
+    @Html.TextArea("message");
+    <br />
+
+    <input type="submit" value="Send Message" />
+
+
+}
