@@ -55,9 +55,11 @@ namespace PropertyManagement.Models
 
         public ICollection<OffersForSale> Offers { get; set; }
 
+        public bool Sold { get; set; } = false;
 
-          
 
-          
-        }
+
+
+
+    }
 }

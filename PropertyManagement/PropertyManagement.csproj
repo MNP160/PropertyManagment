@@ -255,6 +255,14 @@
     <Compile Include="Migrations\201912032317595_MoreErrorsFixeWithModel.Designer.cs">
       <DependentUpon>201912032317595_MoreErrorsFixeWithModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912042233230_fixToModels.cs" />
+    <Compile Include="Migrations\201912042233230_fixToModels.Designer.cs">
+      <DependentUpon>201912042233230_fixToModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912042235461_moreFixes.cs" />
+    <Compile Include="Migrations\201912042235461_moreFixes.Designer.cs">
+      <DependentUpon>201912042235461_moreFixes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\House.cs" />
@@ -458,6 +466,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912032317595_MoreErrorsFixeWithModel.resx">
       <DependentUpon>201912032317595_MoreErrorsFixeWithModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912042233230_fixToModels.resx">
+      <DependentUpon>201912042233230_fixToModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912042235461_moreFixes.resx">
+      <DependentUpon>201912042235461_moreFixes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -5,6 +5,13 @@
 }
 
 <h2>Manage Properties For Rent</h2>
+@using (Html.BeginForm("deleteRented", "HousesForRent"))
+{
+    <p>
+
+        <input type="submit" value="Delete Rented" />
+    </p>
+}
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -46,6 +53,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Address)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rented)
+        </th>
         <th></th>
     </tr>
 
@@ -79,6 +89,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rented)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |

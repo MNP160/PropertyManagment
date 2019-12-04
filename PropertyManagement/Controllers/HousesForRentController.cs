@@ -88,7 +88,7 @@ namespace PropertyManagement.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Description,NumberOfRooms,NumberOfBathrooms,NumberOfBedrooms,ImageUrl,Avaibility,RentalPrice,DateAdded,ExtraInformation,Address")] House1 house1)
+        public ActionResult Edit([Bind(Include = "Id,Description,NumberOfRooms,NumberOfBathrooms,NumberOfBedrooms,ImageUrl,Avaibility,RentalPrice,DateAdded,ExtraInformation,Address,Rented")] House1 house1)
         {
             if (ModelState.IsValid)
             {
@@ -136,6 +136,18 @@ namespace PropertyManagement.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        public ActionResult deleteRented()
+        {
+            var rented = from x in db.Houses1.Where(x => x.Rented == true) select x;
+
+
+            db.Houses1.RemoveRange(rented);
+            db.SaveChanges();
+
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

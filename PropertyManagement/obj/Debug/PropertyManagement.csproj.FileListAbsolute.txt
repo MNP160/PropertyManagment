@@ -949,3 +949,5 @@ D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\D
 D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.offers.resources
 D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.FixedModelError.resources
 D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.MoreErrorsFixeWithModel.resources
+D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.fixToModels.resources
+D:\Programming\Projects\PropertyClone\PropertyManagment\PropertyManagement\obj\Debug\PropertyManagement.Migrations.moreFixes.resources

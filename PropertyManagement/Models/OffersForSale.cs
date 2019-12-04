@@ -16,15 +16,13 @@ namespace PropertyManagement.Models
         [ForeignKey("user")]
         public string? userId { get; set; }
 
-        //  [ForeignKey("house")]
-        // public int Id { get; set; }
+       
         [ForeignKey("house")]
         public int? Id { get; set; }
 
         public virtual House house { get; set; }
 
-        //[ForeignKey("user")]
-      //  public string Id { get; set; }
+      
         public virtual ApplicationUser user { get; set; }
        
 

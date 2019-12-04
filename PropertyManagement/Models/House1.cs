@@ -54,6 +54,8 @@ namespace PropertyManagement.Models
         public string Address { get; set; }
         public ICollection<OffersForRent> Offers { get; set; }
 
+        public bool Rented { get; set; } = false;
+
 
 
 
